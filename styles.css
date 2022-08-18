@@ -85,8 +85,11 @@ header .container img {
 
 .sections {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: wrap;
+  width: 100%;
+}
+.sections a {
+  margin: 10px;
 }
 .details {
   border: 2px black solid;
@@ -143,7 +146,7 @@ header .container img {
   display: none;
 }
 @media only screen and (max-width: 800px) {
-  .search_bar,
+  .search-bar,
   nav a,
   nav .button {
     display: none;
